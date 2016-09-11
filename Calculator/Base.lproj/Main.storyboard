@@ -33,6 +33,9 @@
                                 <state key="normal" title="AC">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="clearButtonDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBd-ZF-TEg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDA-zW-nFx">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -498,6 +501,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="expressionLabel" destination="f0b-LQ-Xpg" id="C39-gR-od7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

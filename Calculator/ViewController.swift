@@ -9,12 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var expressionLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        var expr = Expression(expression: "1+1 / 1")
-        print(expr)
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +20,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func clearButtonDidPressed(sender: UIButton) {
+    }
 
 }
 
